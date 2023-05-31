@@ -3,6 +3,21 @@
     src: url(Franchise.ttf);
 }
 
+@font-face {
+    font-family: svalkandeFont;
+    src: url(Retrolight.ttf);
+}
+
+@media (max-width: 767px) {
+    #menu-wrapper {
+        flex-direction: column;
+    }
+
+    .menu-container {
+        padding-bottom: 4px;
+    }
+}
+
 body {
     background-color: white;
 }
@@ -107,6 +122,12 @@ p {
 
 .svalkande {
     text-align: center;
+}
+
+.svalkande>p {
+    font-family: svalkandeFont;
+    font-size: 35px;
+    font-weight: 550;
 }
 
 .drink-label {
