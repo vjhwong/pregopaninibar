@@ -24,7 +24,9 @@
 }
 
 body {
-    background-color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul {
@@ -42,7 +44,7 @@ p {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 20px;
+    width: 15px;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -50,7 +52,6 @@ p {
 
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
 }
@@ -170,9 +171,13 @@ p {
 }
 
 #footer-wrapper {
+    width: 100%;
     background-color: bisque;
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 .footer-container {
