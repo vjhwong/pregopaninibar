@@ -103,7 +103,6 @@ p {
 #drink-container {
     border-style: solid;
     border-width: 4px;
-    padding: 10px 20px;
     box-sizing: border-box;
     min-height: 628px;
     min-width: 300px;
@@ -120,6 +119,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 4px;
 }
 
 .sandwich-name {
