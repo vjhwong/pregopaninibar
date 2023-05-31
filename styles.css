@@ -1,11 +1,16 @@
 @font-face {
     font-family: sandwichFont;
-    src: url(Franchise.ttf);
+    src: url(fonts/Franchise.ttf);
 }
 
 @font-face {
     font-family: svalkandeFont;
-    src: url(Retrolight.ttf);
+    src: url(fonts/Retrolight.ttf);
+}
+
+@font-face {
+    font-family: menuFont;
+    src: url(fonts/lostgun-regular.otf);
 }
 
 @media (max-width: 767px) {
@@ -30,6 +35,29 @@ ul {
 
 p {
     margin: 4px;
+    font-family: menuFont;
+    font-weight: 900;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #3B5998;
+    color: white;
 }
 
 .label {
@@ -46,6 +74,7 @@ p {
 
 .big-number {
     text-align: center;
+    font-size: 20px;
 }
 
 #header {
@@ -78,6 +107,7 @@ p {
     min-height: 628px;
     min-width: 300px;
     max-width: 252px;
+    min-height: 893px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -95,6 +125,7 @@ p {
     font-family: sandwichFont;
     color: black;
     font-size: 30px;
+    font-weight: 400;
 }
 
 .item-wrapper {
@@ -124,7 +155,7 @@ p {
     text-align: center;
 }
 
-.svalkande>p {
+.svalkande-label {
     font-family: svalkandeFont;
     font-size: 35px;
     font-weight: 550;
@@ -132,4 +163,21 @@ p {
 
 .drink-label {
     text-align: center;
+}
+
+.label {
+    font-size: 30px;
+}
+
+#footer-wrapper {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
 }
